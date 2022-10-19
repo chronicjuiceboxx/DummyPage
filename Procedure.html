@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Demo Procedure</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    
+</head>
+<body>
+    <body>
+        <div class="container-fluid">
+            <H1 id=mainheader>Welcome to the AR Resource Demo Page</H1>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-2">
+                <h3>
+                  <a href="/Index.html">Home Page</a></p>
+                </h3>
+                <h3>
+                  <a href="/Procedure.html">Procedure Demo</a></p>
+                </h3>
+                <h3>
+                  <a href="/troubleshooting.html">Troubleshooting Demo</a></p>
+                </h3>
+                <h3>
+                    <a href="/PartsPage.html">Repairable Parts Demo</a></p>
+                </h3>
+            </div>
+                <div class="container-fluid">
+                <div class="col-lg-8">                  
+                    
+                    <H1>Pop and Wipe Procedure</H1>
+                    <button type="button" class="collapsible"><H2>Required Materials</H2></button>
+                    <div class="content">
+                
+                        <ul>
+                            <li>DI Water or 10/90</li>
+            <li>100% IPA</li>
+            <li>Clean Wipes</li>
+            <li>Ladder or platform (optional)</li>
+            
+        </ul>
+    </div>
+        <button type="button" class="collapsible"><H2>Prepare and Cool the chamber</H2></button>
+        <div class="content">
+            <p>
+                <br>1. Ensure the tool is idle
+                <br>2. Log the tool to maintenance state and attach appropriate event codes and quals.
+                <br>3. Login and start the CNC recipe.
+                <br>4. Ensure the chamber completes the CNC recipe and chamber cools below 100C before proceeding.
+            </p>
+        
+        
+        </div>
+        
+        <button type="button" class="collapsible"><H2>Apply LOTO</H2></button>
+    <div class="content">
+        <button type="button" class="collapsible"><H3>Apply Gaspanel LOTO</H3></button>
+        <div class="content">
+            <p>1. Once Chamber has cooled to 100C Remove Gas Open Gas Panel.
+                <br><H2><b>NOTE: Reference WorkLink Maintenance Assist</b></h2>
+                    <br>2. Remove the Gas Panel Cover by removing the four screws on the front of the panel and lift the cover off. Set aside out of the way. The panel is interlocked and will trip the Gas Panel Interlock alarm, which can be cleared using the software.
+                    <br>3. Locate and Identify the Toxic Gasses
+                    <br>4. Lift up and then turn each of the toxic gas safe valve quarter turn knobs clockwise to properly close valve.
+                    <br>5. Carefully thread the cable of the LOTO device through each of the holes in the top of the quarter turn valves and feed through the device. Pull all excess slack through the device until cable is snug. Push handle down to secure.
+                    <br>6. Place Lock with LOTO tag through the holes on the handle. Ensure that the LOTO tag has Name/Lockbox Number, Area, and Date of LOTO.
+                    <br>7. Once LOTO is Hung. Replace the gas panel cover and secure properly with retaining screws.
+                </p>
+            </div>
+            <button type="button" class="collapsible"><H3>Apply Electrical LOTO</H3></button>
+        <div class="content">
+            <p>1. Once Chamber has cooled to 100C Locate and Turn the following breakers off: RPS Units, High Frequency RF, Stage Heaters.
+                <br>2. Carefully thread the cable of the LOTO device through each of the holes in the breakers and feed through the device. Pull all excess slack through the device until cable is snug. Push handle down to secure.
+      <br>3. Place Lock with LOTO tag through the holes on the handle. Ensure that the LOTO tag has Name/Lockbox Number, Area, and Date of LOTO.
+    </p>
+         </div>
+    </div>
+    <button type="button" class="collapsible"><H2>Vent the Chamber</H2></button>
+    <div class="content">
+        <p>1. Open the AMAT software and select desired chamber.
+            <br>2. Ensure heaters are below 100C.
+            <br>3. Select the ISO valve and press close.
+            <br>4. Select the throttle valve and press Close Fully
+            <br>5. Select the gaspanel and open purges to vent.
+    </p>
+</div>
+<button type="button" class="collapsible"><H2>Remove Process Kit and Chamber Wipeout</H2></button>
+<div class="content">
+    
+      <p><H2><b>NOTE: Reference WorkLink Maintenance Assist</b></h2>
+        <br>1. Once Chamber is vented open lid.
+        <br>2. Remove the process kit and place aside for cleaning and/or reinstallation
+        <br>3. Wipe down the Process kit and inside of chamber with 100% IPA. If there is a lot of build-up due to process type, Use DI water or 10/90 followed by 100%IPA
+    </p>
+</div>
+
+<button type="button" class="collapsible"><H2>Install Process Kit</H2></button>
+<div class="content">
+    
+    <p><H2><b>NOTE: Reference WorkLink Maintenance Assist</b></h2>
+        <br>1. Reinstall Process kit after wipe down with 100% IPA in reverse removal order.
+        <br>2. Once Chamber is put together and pumped down, heat chamber to process temp.
+        <Br>3. Once at Process temp, place chamber online and log over for quals.
+  </p>
+</div>
+<button type="button" class="collapsible"><H2>Complete Procedure</H2></button>
+<div class="content">
+    
+    
+    <p>1. Clean up area and dispose of waste materials properly.
+        <br>2. ensure that checklist items are filled out properly
+        <br>3. Put away any ancilary items used during procedure.
+    </p>
+    
+                      </div>
+                    </div>
+                   </div>
+              </div>
+          </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
